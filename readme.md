@@ -1,5 +1,4 @@
 # Run
 
+    - docker-compose build
     - docker-compose up
-    - attach container
-    - python3 kata.py
