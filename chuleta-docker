@@ -1,0 +1,23 @@
+# consultar containers
+	docker ps
+
+# consultar imagenes
+ 	docker images
+
+# borrar todos los containers
+	docker rm $(docker ps -a -q)
+
+# borrar todas las imagenes
+	docker rmi $(docker images -q)
+
+# parar container
+	docker stop [container-name]
+
+# borrar todo
+	docker system prune
+
+# build Dockerfile
+	docker build -t [name-img] . (usa el Dockerfile)
+
+# run docker compose
+	docker-compose up
